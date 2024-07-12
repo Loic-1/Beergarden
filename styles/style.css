@@ -5,7 +5,7 @@
   --socials-font-color: whitesmoke;
   --background-color: #131313;
   --secondary-background-color: #c59d5f;
-  --height: 10em;
+  --height: 15em;
   --margin-fifth: 20px;
 }
 
@@ -61,6 +61,7 @@ header {
   display: flex;
   justify-content: space-between;
   position: fixed;
+  height: 5em;
   width: 100%;
   z-index: 1;
 }
@@ -169,7 +170,7 @@ header {
 .icon3:hover,
 .icon4:hover {
   color: var(--secondary-background-color);
-  transition: 0.2s;
+  transition: 0.3s;
 }
 
 footer {
@@ -178,7 +179,7 @@ footer {
   justify-content: center;
   align-items: center;
   background-color: var(--background-color);
-  height: var(--height);
+  height: 8em;
 }
 /*TEXTE*/
 
