@@ -1,0 +1,94 @@
+:root {
+  --main-font-family: ;
+  --main-font-color: whitesmoke;
+  --socials-font-family: ;
+  --socials-font-color: whitesmoke;
+  --background-color: #131313;
+}
+
+/*TMP*/
+
+header,
+.headerLogo,
+.sectionLinks,
+.socialsLinks,
+footer {
+  outline: auto;
+}
+
+a,
+p {
+  color: var(--main-font-color);
+}
+
+/*CSS*/
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  background-color: grey;
+  text-align: justify;
+  overflow: auto;
+}
+
+header {
+  /* filter: brightness(0.8); */
+  /* background-image: url(images/transparent.png);
+  opacity: 1;
+  background-color: var(--background-color);*/
+  display: flex;
+  justify-content: space-between;
+  position: fixed;
+  width: 100%;
+}
+
+.headerLogo {
+  display: flex;
+  align-items: center;
+}
+
+.sectionLinks {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  width: 40%;
+}
+
+.sectionLinks ul {
+  display: flex;
+  justify-content: space-between;
+}
+
+.socialsLinks {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  width: 40%;
+}
+
+.socialsLinks ul {
+  display: flex;
+  justify-content: space-between;
+}
+
+footer {
+  width: 100%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background-color: var(--background-color);
+  height: 5em;
+}
+/*TEXTE*/
+
+li {
+  list-style-type: none;
+}
+
+a {
+  text-decoration: none;
+}
