@@ -75,6 +75,22 @@ header {
   justify-content: space-between;
 }
 
+.under{
+    height: 100vh;
+}
+
+.over{
+    display: flex;
+    justify-content: center;
+    /* position: absolute; */
+    /* left: 0; */
+    top: 0;
+    z-index: 1;
+}
+
+
+
+
 footer {
   width: 100%;
   display: flex;
@@ -91,4 +107,7 @@ li {
 
 a {
   text-decoration: none;
+}
+a:hover{
+    filter: brightness(0.8);
 }
