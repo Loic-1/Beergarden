@@ -16,6 +16,11 @@ header,
 .sectionLinks,
 .socialsLinks,
 footer,
+.first,
+.second,
+.third,
+.fourth,
+.fifth,
 .servicesFirst,
 .servicesSecond,
 .servicesThird,
@@ -23,8 +28,9 @@ footer,
   outline: auto;
 }
 
-.third p, .fourth p{
-    color: var(--background-color);
+.third p,
+.fourth p {
+  color: var(--background-color);
 }
 
 a,
@@ -118,7 +124,7 @@ header {
 
 .second p {
   width: 90%;
-  font-size:30px;
+  font-size: 30px;
   /*BIG*/
 }
 
@@ -132,9 +138,9 @@ header {
   margin: var(--margin-fifth);
 }
 
-.fifth p{
-    color: var(--background-color);
-    line-height: 1.5;
+.fifth p {
+  color: var(--background-color);
+  line-height: 1.5;
 }
 
 .servicesFirst,
