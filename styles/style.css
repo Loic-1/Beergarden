@@ -4,6 +4,9 @@
   --socials-font-family: ;
   --socials-font-color: whitesmoke;
   --background-color: #131313;
+  --secondary-background-color: #c59d5f;
+  --height: 10em;
+  --margin-fifth: 20px;
 }
 
 /*TMP*/
@@ -12,8 +15,16 @@ header,
 .headerLogo,
 .sectionLinks,
 .socialsLinks,
-footer {
+footer,
+.servicesFirst,
+.servicesSecond,
+.servicesThird,
+.servicesFourth {
   outline: auto;
+}
+
+.third p, .fourth p{
+    color: var(--background-color);
 }
 
 a,
@@ -30,9 +41,10 @@ p {
 }
 
 body {
-  background-color: grey;
+  /* background-color: grey; */
   text-align: justify;
   overflow: auto;
+  font-family: sans-serif;
 }
 
 header {
@@ -44,6 +56,7 @@ header {
   justify-content: space-between;
   position: fixed;
   width: 100%;
+  z-index: 1;
 }
 
 .headerLogo {
@@ -95,13 +108,71 @@ header {
   max-height: 100%;
 }
 
+.second {
+  height: var(--height);
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background-color: var(--secondary-background-color);
+}
+
+.second p {
+  width: 90%;
+  font-size:30px;
+  /*BIG*/
+}
+
+.fifth {
+  width: 100%;
+  display: flex;
+  justify-content: space-around;
+}
+
+.fifth figure {
+  margin: var(--margin-fifth);
+}
+
+.fifth p{
+    color: var(--background-color);
+    line-height: 1.5;
+}
+
+.servicesFirst,
+.servicesSecond,
+.servicesThird,
+.servicesFourth {
+  width: 20%;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  margin-top: var(--margin-fifth);
+  margin-bottom: var(--margin-fifth);
+}
+
+.icon1,
+.icon2,
+.icon3,
+.icon4 {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.icon1:hover,
+.icon2:hover,
+.icon3:hover,
+.icon4:hover {
+  color: var(--secondary-background-color);
+  transition: 0.2s;
+}
+
 footer {
   width: 100%;
   display: flex;
   justify-content: center;
   align-items: center;
   background-color: var(--background-color);
-  height: 5em;
+  height: var(--height);
 }
 /*TEXTE*/
 
@@ -112,6 +183,7 @@ li {
 a {
   text-decoration: none;
 }
+
 a:hover {
   filter: brightness(0.8);
 }
