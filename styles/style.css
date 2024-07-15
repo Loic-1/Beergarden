@@ -135,7 +135,12 @@ header {
 }
 
 .third figure{
-  overflow: hidden;
+  /* overflow: hidden; */
+  width: 50%;
+}
+
+.third img{
+  width: 100%;
 }
 
 .third button {
@@ -197,6 +202,7 @@ header {
 
 .thirdLower {
   display: flex;
+  flex-direction: row-reverse;
 }
 
 .thirdLowerText {
@@ -267,6 +273,7 @@ header {
 
 .sixth figure{
   position: fixed;
+  /* z-index: -1; */
 }
 
 footer {
