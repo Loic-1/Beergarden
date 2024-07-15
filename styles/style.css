@@ -134,6 +134,10 @@ header {
   flex-direction: column;
 }
 
+.third p{
+  margin: 15px;
+}
+
 .third figure{
   /* overflow: hidden; */
   width: 50%;
@@ -141,6 +145,7 @@ header {
 
 .third img{
   width: 100%;
+  height: 100%;
 }
 
 .third button {
@@ -210,6 +215,22 @@ header {
   flex-direction: column;
   justify-content: center;
   align-items: center;
+}
+
+.fourth{
+  display: flex;
+}
+
+.fourth img{
+  width: 100%;
+}
+
+.fourth figure{
+  width: 25%;
+}
+
+.fourth figure:hover{
+
 }
 
 .fifth {
