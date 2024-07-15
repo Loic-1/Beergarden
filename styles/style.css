@@ -223,14 +223,17 @@ header {
 
 .fourth img{
   width: 100%;
+  transition: 0.4s ease-in-out;
 }
 
 .fourth figure{
   width: 25%;
+  overflow: hidden;
 }
 
-.fourth figure:hover{
-
+.fourth img:hover{
+  transform: scale(1.2);
+  cursor: pointer;
 }
 
 .fifth {
